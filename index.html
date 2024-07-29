@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!-- Name: Kartik Grover, Student Number: 8985683 -->
+      <meta charset="UTF-8">
+      <meta name="description" content="Famous poet and writer"> <!-- Corrected 'descriotion' to 'description' -->
+      <meta name="keywords" content="William Shakespeare, Writer"> <!-- Changed 'Researches' to 'keywords' -->
+      <link rel="stylesheet" href="CSS/normalize.css" />
+      <link rel="stylesheet" href="CSS/style.css" />
+      <title>William Shakespeare - A National Poet</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>William Shakespeare</h1>
+    </header>
+    <main>
+      <section id="Lifestyle-journey">
+        <h2>Lifestyle Journey</h2>
+        <blockquote>
+          Shakespeare was born and raised in Stratford-upon-Avon, Warwickshire.
+          At the age of 18, he married Anne Hathaway, with whom he had three children: Susanna, and twins Hamnet and Judith.
+          Sometime between 1585 and 1592, he began a successful career in London as an actor, writer, 
+          and part-owner ("sharer") of a playing company called the Lord Chamberlain's Men, 
+          later known as the King's Men after the ascension of King James VI of Scotland to the English throne. 
+          At age 49 (around 1613), he appears to have retired to Stratford, where he died three years later. 
+          Few records of Shakespeare's private life survive; this has stimulated considerable speculation about such matters as his physical appearance,
+          his sexuality, his religious beliefs, and even certain fringe theories[8] as to whether the works attributed to him were 
+          written by others.
+        </blockquote>
+
+        <figure>
+          <img src="Picture/William Shakespeare.jpeg.jpg" alt="Shakespeare's Picture">
+          <figcaption>Shakespeare's Picture</figcaption>
+        </figure>
+      </section>
+
+      <section id="Quote">
+        <h2>Quotes</h2>
+        <q cite="https://www.thoughtco.com/top-shakespeare-quotes-2833137">
+          If you can look into the seeds of time, and say which grain will grow and which will not, speak then to me.
+        </q>
+      </section>
+      
+      <section id="Greatest-Famous-Poems">
+        <h2>Greatest Famous Poems</h2>
+        <p>Venus and Adonis</p>
+        <p>The Rape of Lucrece</p>
+      </section>
+
+      <section id="Video">
+        <h2>Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gwA6meMWJNM" frameborder="0" allowfullscreen></iframe>
+      </section>      
+    </main>
+
+    <aside>
+      <section id="external-links">
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="https://www.britannica.com/biography/William-Shakespeare/images-videos" target="_blank" title="William-Shakespeare on Britannica">Britannica</a></li> <!-- Fixed title and link text -->
+          <li><a href="https://en.wikipedia.org/wiki/William-Shakespeare" target="_blank" title="Shakespeare - Life Journey">Shakespeare on Wikipedia</a></li> <!-- Added text inside the link and fixed title -->
+          <li><a href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/william-shakespeare/william-shakespeare-biography/" target="_blank" title="William Shakespeare Biography">William Shakespeare Biography</a></li> <!-- Added text inside the link and fixed title -->
+        </ul>
+      </section>
+      <section id="Contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="fname" class="form-label">Name:</label>
+          <input type="text" id="fname" name="fname"><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>      
+     
+          <label for="phone">Phone number:</label>
+          <input type="tel" id="phone" name="phone"><br>
+     
+          <label for="contact-method">Preferred method of contact:</label>
+          <select id="contact-method" name="contact-method" required class="form-control">
+            <option value="">Select</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+          </select>
+     
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" cols="20" rows="3"></textarea><br><br>
+     
+          <input type="submit" value="Submit" class="form-control">
+        </form>
+      </section>
+    </aside>
+    <footer>
+      <p>&copy; Kartik Grover 2024.</p>
+    </footer>
+  </body>
+</html>
